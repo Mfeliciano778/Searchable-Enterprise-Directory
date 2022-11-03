@@ -1,0 +1,16 @@
+.Card {
+    display: flex;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: grey;
+    padding: 10px 20px;
+    justify-content: center;
+}
+.regText {
+    font: bold;
+    padding: 0px 50px 0px 50px;
+}
+.Location {
+    color: blue;
+    font: bold;
+}

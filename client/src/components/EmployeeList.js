@@ -6,7 +6,7 @@ function EmployeeCardList ({ data }) {
             <EmployeeCard
                 key={employee.employee_id}
                 phone={employee.phone}
-                name={employee.employee_name}
+                name={employee.name}
                 role={employee.role}
                 location={employee.location}
                 salary={employee.salary}

@@ -1,0 +1,17 @@
+.filter-form  {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+}
+h2 {
+    left: 10%;
+}
+li{
+    list-style: none;
+}
+div li input[type="text"] {
+  padding: 10px;
+}
+div h3 {
+    padding-top: 10 px;
+}

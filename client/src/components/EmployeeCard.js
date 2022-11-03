@@ -1,13 +1,14 @@
 import React from "react";
+import "../styles/employeecard.css"
 
  function EmployeeCard({ name, phone, role, location, salary}) {
     return (
-        <div className="md:flex bg-white shadow text-gray-800 my-4 py-4 px-10 rounded-md items-center justify-between hover:bg-gray-300">
-            <p className="font-bold text-md">{name}</p>
-            <p className="font-bold text-md">{phone}</p>
-            <p>{role}</p>
-            <p className="text-blue-500">{location}</p>
-            <p>{salary}</p>
+        <div className="Card">
+            <p className="regText">{name}</p>
+            <p className="regText">{phone}</p>
+            <p className="regText">{role}</p>
+            <p className="Location">{location}</p>
+            <p className="regText">{salary}</p>
         </div>
     )
 }
